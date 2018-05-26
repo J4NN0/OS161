@@ -1,0 +1,3 @@
+$(MYBUILDDIR)/quintsort.o: \
+ quintsort.c \
+ $(INSTALLTOP)/include/test/quint.h

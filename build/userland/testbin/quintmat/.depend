@@ -1,0 +1,3 @@
+$(MYBUILDDIR)/quintmat.o: \
+ quintmat.c \
+ $(INSTALLTOP)/include/test/quint.h

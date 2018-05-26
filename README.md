@@ -26,6 +26,6 @@
             In kern/compile/HELLO
                 bmake depend
                 bmake
-                bmake instal
+                bmake install
             
 # Writing a new system call

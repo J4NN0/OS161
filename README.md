@@ -1,8 +1,6 @@
 # OS161
 
-# Run 0S161
-
-# Debug OS161
+OS/161 is a teaching operating system, that is, a simplified system used for teaching undergraduate operating systems classes. It is BSD-like in feel and has more "reality" than most other teaching OSes; while it runs on a simulator it has the structure and design of a larger system. More info here: http://os161.eecs.harvard.edu
 
 # Modify the kernel
 
@@ -10,7 +8,7 @@
   2. Modify kern/main/main.c entering a call to your function
   3. In test.h:
   
-         #include "opt-yourfile.h" (opt-optname.h)
+         #include "opt-yourfile.h" //(opt-optname.h)
          Insert a prototype of your function  
          
   4. Modify kern/conf/conf.kern inserting the new file (#Startup and initialization):   
@@ -35,12 +33,12 @@
 # Writing a new system call
   
   1. In kern/arch/mips/syscall/syscall.c there is switch case in which you can menage the system calls
-  2. To menage a system call it's necessary an integer code:
+  2. To menage a system call it's necessary an integer code. See:
   
-         See kern/include/kern/syscall.h
+         kern/include/kern/syscall.h
          
   3. Create your system call in kern/syscall/my_syscalls.c
-  4. Modify kern/include/syscall.h adding a protorype if the syscall function
+  4. Modify kern/include/syscall.h adding a prototype of the syscall function
   5. Modify kern/conf/conf.kern inserting the new file (#System call layer):
   
          file syscall/my_syscalls.c

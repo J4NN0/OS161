@@ -1,6 +1,7 @@
 # OS161
 
-OS/161 is a teaching operating system, that is, a simplified system used for teaching undergraduate operating systems classes. It is BSD-like in feel and has more "reality" than most other teaching OSes; while it runs on a simulator it has the structure and design of a larger system.
+OS/161 is a teaching operating system, that is, a simplified system used for teaching undergraduate operating systems classes. It is BSD-like in feel and has more "reality" than most other teaching OSes; while it runs on a simulator it has the structure and design of a larger system. 
+
 More info here: http://os161.eecs.harvard.edu
 
 # Modify the kernel

@@ -24,7 +24,9 @@
         
   6. Finally do the make of the kernel:
   
-            ./config YOURFILE
+            In kern/conf
+                ./config YOURFILE
+                
             In kern/compile/YOURFILE
                 bmake depend
                 bmake
@@ -45,7 +47,9 @@
      
   6. Finally do the make of the kernel
           
-          ./config DUMBVM
+          In kern/conf
+            ./config DUMBVM
+            
           In kern/compile/DUMBVM
               bmake depend
               bmake

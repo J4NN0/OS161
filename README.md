@@ -6,11 +6,13 @@
 
 # Modify the kernel
 
-  1. Create a file in kern/main/yourfile.c and write a fucntion
+  1. Create a file in kern/main/yourfile.c and write a function
   2. Modify kern/main/main.c entering a call to your function
-  3. Insert in test.h a prototype of your function
+  3. Insert in test.h a prototype of your function and #include "opt-yourfile.h" (opt-optname.h)
   4. Modify kern/conf/conf.kern inserting the new file:   
-        
+  
+          file      main/main.c
+          file      main/menu.c
           defoption yourfile
           optfile   yourfile   main/yourfile.c
           

@@ -54,13 +54,3 @@ More info here: http://os161.eecs.harvard.edu
               bmake depend
               bmake
               bmake install
-
-# My implementations
-
-  - System call
-    
-        sys_write, sys_read, sys_exit
-        
-  - Synchronization via lock
-  
-        lock_create, lock_destroy, lock_acquire, lock_release, lock_do_i_hold
